@@ -1,0 +1,11 @@
+[Unit]
+Description=Network Configuration
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'sudo dhclient -r eth0 && sudo dhclient eth0 && sudo dhclient -r eth1 && sudo dhclient eth1 && sudo dhclient -r eth2 && sudo dhclient eth2 && echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null && echo "nameserver 8.8.4.4" | sudo tee -a /etc/resolv.conf > /dev/null && echo "nameserver 192.168.42.40" | sudo tee -a /etc/resolv.conf > /dev/null'
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
