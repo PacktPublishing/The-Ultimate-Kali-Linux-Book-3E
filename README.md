@@ -18,7 +18,7 @@ The journey ends with understanding complex web application testing techniques, 
 - Install and configure Kali Linux 2024.1
 - Build a penetration testing lab environment and perform vulnerability assessments
 - Understand the various approaches a penetration tester can undertake for an assessment
-- Gathering information from Open Source Intelligence (OSINT) data sources
+- Gathering information from **Open Source Intelligence** (**OSINT**) data sources
 - Use Nmap to discover security weakness on a target system on a network
 - Implement advanced wireless pentesting techniques
 - Become well-versed with exploiting vulnerable web applications
