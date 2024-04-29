@@ -107,7 +107,7 @@ Glen loves teaching and mentoring others while sharing his wealth of knowledge a
 
 ## Other Related Books
 - [Mastering Kali Linux for Advanced Penetration Testing – Fourth Edition](https://www.packtpub.com/product/mastering-kali-linux-for-advanced-penetration-testing-fourth-edition-fourth-edition/9781801819770)
-- [Linux Kernel Programming - Second Edition][https://www.packtpub.com/product/mastering-kubernetes-fourth-edition/9781804611395](https://www.packtpub.com/product/linux-kernel-programming-second-edition/9781803232225)
+- [Linux Kernel Programming - Second Edition](https://www.packtpub.com/product/linux-kernel-programming-second-edition/9781803232225)
 
 
 
