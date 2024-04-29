@@ -25,6 +25,7 @@ The journey ends with understanding complex web application testing techniques, 
 
  
 ## What's New
+The Third Edition of "The Ultimate Kali Linux Book", delves into the world of ethical hacking and penetration testing with Kali Linux 2024.1. You will gain deeper insights into tactics and techniques, including new labs covering web application security and social engineering. This edition features improved procedures for building virtual lab environments, now more accessible to beginners. Additionally, you will also discover a dedicated chapter on setting up the virtual lab on Ubuntu, tailored for users of Ubuntu Desktop. Uncover the power of **Open Source Intelligence** (**OSINT**) with a specialized chapter focused on gathering and analyzing publicly available information about systems, networks, and organizations.
 
 
 ## Outline and Chapter Summary
