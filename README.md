@@ -28,17 +28,6 @@ The journey ends with understanding complex web application testing techniques, 
 
 
 ## Outline and Chapter Summary
-When breaking into the cybersecurity industry, specifi cally in the ethical hacking and penetration testing fields, you will oft en hear about the famous Linux distribution known as Kali Linux. Kali Linux is a penetration testing Linux distribution that is built to support the needs of cybersecurity professionals during each phase of a penetration test. As a cybersecurity author, lecturer, and industry professional, I’ve heard from many people within the cybersecurity and information technology industries, and even from students, about the importance of fi nding a book that guides the reader to thoroughly understand how to perform penetration testing from beginner to advanced level using a step-by-step approach with Kali Linux. This was the motivation and inspiration behind creating the ultimate book that will be easy to understand for everyone and help all readers to become profi cient and develop new skills while using the latest tools and techniques.
-Over the years, I’ve researched and created a lot of cybersecurity-related content, and one of the most important things about being both a red and blue teamer (off ensive and defensive) is always staying up to date on how to discover the latest security vulnerabilities and understanding the **Tactics, Techniques, and Procedures** (**TTPs**) that are commonly used by cybercriminals. As a result, ethical hackers and penetration testers need to be equipped with the latest knowledge, skills, and tools to effi ciently discover and exploit hidden security vulnerabilities on their targets’ systems and networks, with the intent of helping organizations reduce their attack surface and improve their cyber defenses. During the writing of this book, I’ve used a student-centric and learner-friendly approach, helping you to easily understand the most complex topics, terminologies, and why there is a need to test for security fl aws on a system and network.
-This book begins by introducing you to the mindset of a threat actor such as a hacker and comparing a hacker’s mindset to that of penetration testers. It’s important to understand how a threat actor thinks and what is most valuable to them. While penetration testers may have a similar mindset to a hacker, their objective is to discover and help resolve the security vulnerabilities before a real cyber attack occurs on an organization. Furthermore, you will learn how to create a lab environment using virtualization technologies to reduce the cost of buying equipment. The lab environment will emulate a network with vulnerable
-systems and web application servers. Additionally, a fully patched Windows Active Directory lab has been created to demonstrate the security vulnerabilities found within a Windows domain, where you will learn how to compromise Active Directory services. 
-You will soon learn how to perform real-world intelligence gathering on organizations using popular tools and strategies for reconnaissance and information gathering. Learning ethical hacking and penetration testing would not be complete without learning how to perform vulnerability assessments using industry-standard tools. Furthermore, you will spend some time learning how to perform exploitation on common security vulnerabilities. Following the exploitation phase, you will be exposed to post-exploitation techniques and learn how to set up **Command and Control** (**C2**) operations to maintain access on a compromised network to expand your foothold as a penetration tester and exfi ltrate data from a compromised host.
-You will learn how to perform Active Directory enumeration and exploitation, as many organizations have a Windows environment running Active Directory.
-You will learn how to abuse the trust of Active Directory and take over a Windows domain by creating a golden ticket, a silver ticket, and a skeleton key. Furthermore, wireless attacks are included to help aspiring penetration testers gain the skills needed to test for security vulnerabilities on wireless networks, such as exploiting the WPA3 wireless security standard. Finally, the last section includes techniques for discovering and exploiting web applications and performing social engineering techniques and procedures.
-In this edition, the procedures for building virtual lab environments have been improved and made easier to understand and follow as a beginner. A new and dedicated chapter on **Open Source Intelligence** (**OSINT**)focuses on collecting and analyzing publicly available information on targeted systems, networks, and organizations to develop a profi le of intelligence that can be exploited during penetration testing. The theory and practical labs were improved throughout the entire book, and new labs on web application and social engineering were included.
-By completing this book, you will be taken through an amazing journey from beginner to expert in terms of learning, understanding, and developing your skills in ethical hacking and penetration testing as an aspiring cybersecurity professional within the industry.
-
-
 1. Introduction to Ethical Hacking
 2. [Building a Penetration Testing Lab](https://github.com/PacktPublishing/The-Ultimate-Kali-Linux-Book-3E/tree/main/Chapter%2002)
 3. Setting up for Advanced Penetration Testing Techniques
@@ -59,99 +48,42 @@ By completing this book, you will be taken through an amazing journey from begin
 18. Best Practices for the Real World
 
 
-### Chapter 01, Introduction to Ethical Hacking
-Chapter 1, Introduction to Ethical Hacking, introduces the reader to the concepts ethical hacking and penetration
-testing tactics and strategies while providing insights into a hacker’s mindset.
-
-### Chapter 02, Building a Penetration Testing Lab
-Chapter 2, Building a Penetration Testing Lab, focuses on providing the practical skills for using virtualization
-technologies to effi ciently build a personalized lab environment to safely practice ethical hacking and
-penetration testing while exploring new skills.
-
-### Chapter 03, Setting up for Advanced Penetration Testing Techniques
-Chapter 3, Setting up for Advanced Penetration Testing Techniques, covers how to set up an enterprise Active
-Directory environment and wireless network for learning how to identify and exploit security vulnerabilities
-within organizations’ infrastructure.
-
-### Chapter 04, Passive Reconnaissance
-Chapter 4, Passive Reconnaissance, introduces the reader to passive reconnaissance and how to reduce their
-threat level when collecting information about a target during penetration testing.
-
-### Chapter 05, Exploring Open Source Intelligence
-Chapter 5, Exploring Open Source Intelligence, focuses on teaching the reader how to collect and analyze
-publicly available information to develop a profi le about a target and weaponize the collected intelligence.
-
-### Chapter 06, Active Reconnaissance
-Chapter 6, Active Reconnaissance, teaches the reader how to perform active reconnaissance techniques to
-collect sensitive information from targeted systems and networks.
-
-### Chapter 07, Performing Vulnerability Assessments
-Chapter 7, Performing Vulnerability Assessments, focuses on performing vulnerability assessments on targeted
-systems and networks using free and open-source vulnerability management tools in the industry.
-
-### Chapter 08, Understanding Network Penetration Testing
-Chapter 8, Understanding Network Penetration Testing, introduces the reader to the fundamentals of network
-penetration testing, anti-malware evasion techniques, and working with wireless network adapters.
-
-### Chapter 09, Performing Network Penetration Testing
-Chapter 9, Performing Network Penetration Testing, focuses on host discovery, identifying and exploiting vulnerabilities
-on Windows, and Linux-based systems, and performing online and offl ine password-cracking
-techniques.
-
-### Chapter 10, Post-Exploitation Techniques
-Chapter 10, Post-Exploitation Techniques, introduces the reader to common post-exploitation techniques
-to expand their foothold on a compromised host, use lateral movement to identify additional targets on a
-diff erent subnet, and perform data exfi ltration from a compromised machine.
-
-### Chapter 11, Delving into Command and Control Tactics
-Chapter 11, Delving into Command and Control Tactics, introduces the reader to **Command and Control** (**C2**)
-operations and explores how C2 helps penetration testers with remote manipulation from their compromised
-targets on a network.
-
-### Chapter 12, Working with Active Directory Attacks
-Chapter 12, Working with Active Directory Attacks, focuses on discovering and exploiting the trust relationships
-in an Active Directory environment.
-
-### Chapter 13, Advanced Active Directory Attacks
-Chapter 13, Advanced Active Directory Attacks, explores advanced Active Directory penetration testing techniques
-and procedures, such as performing lateral and vertical movement and taking over the entire Windows
-domain environment.
-
-### Chapter 14, Advanced Wireless Penetration Testing
-Chapter 14, Advanced Wireless Penetration Testing, introduces the reader to wireless communication and how
-penetration testers can identify and exploit security vulnerabilities within enterprise wireless networks.
-
-### Chapter 15, Social Engineering Attacks
-Chapter 15, Social Engineering Attacks, focuses on understanding the principles of social engineering and
-techniques used by penetration testers to identify human-based vulnerabilities that can be exploited by
-real threat actors.
-
-### Chapter 16, Understanding Website Application Security
-Chapter 16, Understanding Website Application Security, focuses on discovering the web application security
-risks that are described in the OWASP Top 10: 2021 list of security vulnerabilities.
-
-### Chapter 17, Advanced Website Application Penetration Testing
-Chapter 17, Advanced Website Application Penetration Testing, focuses on performing advanced web application
-security testing to discover and exploit security fl aws.
-
-### Chapter 18, Best Practices for the Real World
-Chapter 18, Best Practices for the Real World, provides guidelines for aspiring ethical hackers and penetration
-testers to ensure that, aft er completing this book, you have a wealth of valuable knowledge and can adapt
-to good practices within the industry.
-
-
 ## Software and hardware list
-| Chapter | Software required | Free/Proprietary | Can code testing be performed using a trial? | Cost of the software | Download Links to the software | Hardware specifications | OS required |
+| Chapter number | Software required | Free/Proprietary | Can code testing be performed using a trial? | Cost of the software | Download Links to the software | Hardware specifications | OS required |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Anaconda (>=v22.0) or Miniconda (>=v22.0) | Free | N/A | N/A | [https://www.anaconda.com/download](https://www.anaconda.com/download) | N/A | MacOS, Windows, or Linux |
-| 2 | • PyCharm or VSCode <br> • Git and GitHub account <br> • Atlassian JIRA <br> • AWS Account | • Proprietary with free version available <br> • Free <br> • Proprietary with free version available <br> • Proprietary with CLI, etc. free | • N/A <br> • N/A <br> • Yes <br> • Yes | • N/A <br> • N/A <br> • N/A <br> • Free tier, followed by pay as you go | • [https://www.jetbrains.com/pycharm/download](https://www.jetbrains.com/pycharm/download) <br> •[https://code.visualstudio.com/download](https://code.visualstudio.com/download) <br> • [https://www.atlassian.com/git/tutorials/install-git](https://www.atlassian.com/git/tutorials/install-git) <br> • [https://github.com/](https://github.com/) <br> •[https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira) <br> • [https://aws.amazon.com/](https://aws.amazon.com/) | N/A | MacOS, Windows, or Linux |
-| 3 | • MLFlow <br> • Tensorflow <br> • PyTorch | • Free <br> • Free <br> • Free | • N/A <br> • N/A <br> • Yes <br> • Yes | N/A | • [https://mlflow.org/docs/latest/quickstart.html](https://mlflow.org/docs/latest/quickstart.html) <br> •[https://www.tensorflow.org/install](https://www.tensorflow.org/install) <br> • [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/) | N/A | MacOS, Windows, or Linux |
-| 4 |  Make | Free | N/A | N/A | • [https://formulae.brew.sh/formula/make](https://formulae.brew.sh/formula/make) <br> • Linux: Pre-installed <br> • Recommend you work in Windows Subsystem for Linux and then Make should be available  | N/A | MacOS, Windows, or Linux |
-| 5 | • Docker (v20.10) <br> • Kind (>=v0.20) <br> • Kubeflow Pipelines SDK (v1.8) <br> • ZenML (>=0.40) <br> • Apache Airflow (>=v2.6.0)  | Free | N/A | N/A | • [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/) <br> • [https://kind.sigs.k8s.io](https://kind.sigs.k8s.io/) <br> • [https://www.kubeflow.org/docs/started/installing-kubeflow/](https://www.kubeflow.org/docs/started/installing-kubeflow/) <br> • [https://docs.zenml.io/getting-started/installation](https://docs.zenml.io/getting-started/installation) <br> • [https://airflow.apache.org/docs/apache-airflow/stable/installation/](https://airflow.apache.org/docs/apache-airflow/stable/installation/) | N/A | MacOS, Windows, or Linux |
-| 6 | • Apache Spark (>=v3.0) <br> • Ray | • Free <br> • Free | N/A | N/A | • [https://spark.apache.org/downloads.html](https://spark.apache.org/downloads.html) <br> • [https://docs.ray.io/en/latest/ray-overview/installation.html](https://docs.ray.io/en/latest/ray-overview/installation.html)  | N/A | MacOS, Windows, or Linux (beta) |
-| 7 | • OpenAI API Account | Proprietary | Requires an OpenAI account and API key | Model dependent: $0.0015-0.12/1k tokens | [https://openai.com/blog/openai-api](https://openai.com/blog/openai-api) | N/A | MacOS, Windows, or Linux |
-| 8 | • Minikube (v1.30.0) | Free | N/A | N/A | [https://minikube.sigs.k8s.io/docs/start/](https://minikube.sigs.k8s.io/docs/start/)  | N/A | MacOS, Windows, or Linux |
-| 9 | • Apache Airflow (>=v2.6.0) | Free | N/A | N/A | [https://airflow.apache.org/docs/apache-airflow/stable/installation/](https://airflow.apache.org/docs/apache-airflow/stable/installation/)  | N/A | MacOS, Windows, or Linux |
+| 2 | Oracle VM VirtualBox | Free | N/A | N/A | [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads) | N/A |N/A |
+| 2 | Oracle VM VirtualBox Extension Pack | Free | N/A | N?A | [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)| N/A | N/A |
+| 2 | Kali Linux | Free | N/A | N?A | [https://www.kali.org/get-kali/ ](https://www.kali.org/get-kali/)| N/A | Kali Linux 2023.2 |
+| 2 | Vagrant version 2.3.7 | Free | N/A | N/A | [https://developer.hashicorp.com/vagrant/install?product_intent=vagrant](https://developer.hashicorp.com/vagrant/install?product_intent=vagrant)| N/A | N/A |
+| 2 | OWASP Juice Shop | Free | N/A | N/A | [https://owasp.org/www-project-juice-shop/]https://owasp.org/www-project-juice-shop/)| N/A | N/A |
+| 2 | Metasploitable 2 | Free | N/A | N/A | [https://sourceforge.net/projects/metasploitable/files/Metasploitable2/](https://sourceforge.net/projects/metasploitable/files/Metasploitable2/t)| N/A | N/A |
+| 2 | Metasploitable 3 | Free | N/A | N/A | [https://app.vagrantup.com/rapid7](https://app.vagrantup.com/rapid7)| N/A | N/A |
+| 3 | Windows 10 Enterprise (evaluation version) | Free | N/A | N/A | [https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise)| N/A | N/A |
+| 3 | Windows Server 2019 (evaluation version) | Free | N/A | N/A | [https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019)| N/A | N/A |
+| 3 | Ubuntu Server 22.04 LTS | Free | N/A | N/A | [https://releases.ubuntu.com/jammy/](https://releases.ubuntu.com/jammy/)| N/A | N/A |
+| 5 | DNSmap | Free | N/A | N/A | [https://github.com/resurrecting-open-source-projects/dnsmap](https://github.com/resurrecting-open-source-projects/dnsmap)| N/A | N/A |
+| 5 | Sublist3r | Free | N/A | N/A | [https://github.com/aboul3la/Sublist3r](https://github.com/aboul3la/Sublist3r)| N/A | N/A |
+| 5 | Sherlock | Free | N/A | N/A | [https://github.com/sherlock-project/Sherlock](https://github.com/sherlock-project/Sherlock)| N/A | N/A |
+| 6 | EyeWitness | Free | N/A | N/A | [https://github.com/RedSiege/EyeWitness](https://github.com/RedSiege/EyeWitness)| N/A | N/A |
+| 6 | S3Scanner | Free | N/A | N/A | [https://github.com/sa7mon/S3Scanner](https://github.com/sa7mon/S3Scanner)| N/A | N/A |
+| 7 | Nessus Essentials | Free | N/A | N/A | [https://www.tenable.com/products/nessus/nessus-essentials](https://www.tenable.com/products/nessus/nessus-essentials)| N/A | N/A |
+| 7 | Greenbone Vulnerable Manager | Free | N/A | N/A | [https://github.com/greenbone/gvmd](https://github.com/greenbone/gvmd)| N/A | N/A |
+| 8 | Shelter  | Free | N/A | N/A | [https://www.shellterproject.com/introducing-shellter/](https://www.shellterproject.com/introducing-shellter/)| N/A | N/A |
+| 8 | N/A | N/A | N/A | N/A | N/A | Alfa AWUS036NHA Wireless B/G/N USB adapter| N/A |
+| 8 | N/A | N/A | N/A | N/A | N/A | Alfa AWUS036ACH Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi adapter | N/A |
+| 10 | PacketWhisper | Free | N/A | N/A | [https://github.com/TryCatchHCF/PacketWhisper](https://github.com/TryCatchHCF/PacketWhisper)| N/A | N/A |
+| 13 | Mitm6 | Free | N/A | N/A | [https://github.com/dirkjanm/mitm6](https://github.com/dirkjanm/mitm6)| N/A | N/A |
+| 13 | Mimikatz | Free | N/A | N/A | [https://github.com/gentilkiwi/mimikatz](https://github.com/gentilkiwi/mimikatz)| N/A | N/A |
+| 14 | Airgeddon | Free | N/A | N/A | [https://github.com/v1s1t0r1sh3r3/airgeddonr](https://github.com/v1s1t0r1sh3r3/airgeddon)| N/A | N/A |
+| 14 | N/A | N/A | N/A | N/A | N/A | Alfa AWUS036NHA Wireless B/G/N USB adapter | N/A |
+| 14 | N/A | N/A | N/A | N/A | N/A | Alfa AWUS036ACH Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi adapter | N/A |
+| 14 | N/A | N/A | N/A | N/A | N/A | Wireless router that supports WPA2 and WPA3 | N/A |
+| 15 | N/A | N/A | N/A | N/A | N/A | Alfa AWUS036NHA Wireless B/G/N USB adapter | N/A |
+| 16 | Burp Suite | Free | N/A | N/A | [https://portswigger.net/burp](https://portswigger.net/burp)| N/A | N/A |
+| 16 | OWASP Juice Shop | Free | N/A | N/A | [https://owasp.org/www-project-juice-shop/](https://owasp.org/www-project-juice-shop/)| N/A | N/A |
+| 17 | Webgoat | Free | N/A | N/A | N/A| N/A | N/A |
+| 17 | Metasploitable 2 | Free | N/A | N/A | [https://sourceforge.net/projects/metasploitable/files/Metasploitable2/](https://sourceforge.net/projects/metasploitable/files/Metasploitable2/)| N/A | N/A |
+| 18 | ZeroTier | Free | N/A | N/A | [https://www.zerotier.com/](https://www.zerotier.com/)| N/A | N/A |
 
 
 ## Know more on the Discord server <img alt="Coding" height="25" width="32"  src="https://cliply.co/wp-content/uploads/2021/08/372108630_DISCORD_LOGO_400.gif">
